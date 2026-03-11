@@ -40,7 +40,8 @@ RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting \
 
 # Configure .zshrc: set theme and plugins
 RUN sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/' /root/.zshrc && \
-    sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' /root/.zshrc
+    sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' /root/.zshrc && \
+    echo 'export HOST=DEB' >> /root/.zshrc
 
 # Install Solarized Dark dircolors
 RUN git clone https://github.com/seebi/dircolors-solarized /root/.dircolors-solarized && \
