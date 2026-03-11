@@ -6,7 +6,7 @@ Debian with Solarized & Node — a ready-to-use developer container with a polis
 
 
 ## What's required
-- [iTerm](https://iterm2.com) - or `brew install --cask iterm2` on Mac, Set Solarized Dark theme
+- [iTerm](https://iterm2.com) - or `brew install --cask iterm2` on Mac, Set Solarized Dark theme in iTerm2 (iTerm → Preferences → Profiles → Colors → Color Preset) 
 - [Source Code Pro for Powerline font](https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf) - Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Font) 
 
 ## What's included
