@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     locales \
     fonts-powerline \
+    nano \
     && rm -rf /var/lib/apt/lists/*
 
 # Set locale
